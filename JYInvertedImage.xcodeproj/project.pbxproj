@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622001471BDCF6F300C20C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 622001461BDCF6F300C20C68 /* main.m */; };
+		6220014A1BDCF6F300C20C68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 622001491BDCF6F300C20C68 /* AppDelegate.m */; };
+		6220014D1BDCF6F300C20C68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6220014C1BDCF6F300C20C68 /* ViewController.m */; };
+		622001501BDCF6F300C20C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6220014E1BDCF6F300C20C68 /* Main.storyboard */; };
+		622001521BDCF6F300C20C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622001511BDCF6F300C20C68 /* Assets.xcassets */; };
+		622001551BDCF6F300C20C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622001531BDCF6F300C20C68 /* LaunchScreen.storyboard */; };
+		622001601BDCF6F300C20C68 /* JYInvertedImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6220015F1BDCF6F300C20C68 /* JYInvertedImageTests.m */; };
+		6220016B1BDCF6F300C20C68 /* JYInvertedImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6220016A1BDCF6F300C20C68 /* JYInvertedImageUITests.m */; };
+		6220017A1BDCF88400C20C68 /* JYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622001791BDCF88400C20C68 /* JYView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6220015C1BDCF6F300C20C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6220013A1BDCF6F300C20C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622001411BDCF6F300C20C68;
+			remoteInfo = JYInvertedImage;
+		};
+		622001671BDCF6F300C20C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6220013A1BDCF6F300C20C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622001411BDCF6F300C20C68;
+			remoteInfo = JYInvertedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		622001421BDCF6F300C20C68 /* JYInvertedImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYInvertedImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622001461BDCF6F300C20C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		622001481BDCF6F300C20C68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		622001491BDCF6F300C20C68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6220014B1BDCF6F300C20C68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6220014C1BDCF6F300C20C68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6220014F1BDCF6F300C20C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		622001511BDCF6F300C20C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		622001541BDCF6F300C20C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		622001561BDCF6F300C20C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6220015B1BDCF6F300C20C68 /* JYInvertedImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYInvertedImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6220015F1BDCF6F300C20C68 /* JYInvertedImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYInvertedImageTests.m; sourceTree = "<group>"; };
+		622001611BDCF6F300C20C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622001661BDCF6F300C20C68 /* JYInvertedImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYInvertedImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6220016A1BDCF6F300C20C68 /* JYInvertedImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYInvertedImageUITests.m; sourceTree = "<group>"; };
+		6220016C1BDCF6F300C20C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622001781BDCF88400C20C68 /* JYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYView.h; sourceTree = "<group>"; };
+		622001791BDCF88400C20C68 /* JYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6220013F1BDCF6F300C20C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001581BDCF6F300C20C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001631BDCF6F300C20C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622001391BDCF6F300C20C68 = {
+			isa = PBXGroup;
+			children = (
+				622001441BDCF6F300C20C68 /* JYInvertedImage */,
+				6220015E1BDCF6F300C20C68 /* JYInvertedImageTests */,
+				622001691BDCF6F300C20C68 /* JYInvertedImageUITests */,
+				622001431BDCF6F300C20C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622001431BDCF6F300C20C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622001421BDCF6F300C20C68 /* JYInvertedImage.app */,
+				6220015B1BDCF6F300C20C68 /* JYInvertedImageTests.xctest */,
+				622001661BDCF6F300C20C68 /* JYInvertedImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622001441BDCF6F300C20C68 /* JYInvertedImage */ = {
+			isa = PBXGroup;
+			children = (
+				622001481BDCF6F300C20C68 /* AppDelegate.h */,
+				622001491BDCF6F300C20C68 /* AppDelegate.m */,
+				6220014B1BDCF6F300C20C68 /* ViewController.h */,
+				6220014C1BDCF6F300C20C68 /* ViewController.m */,
+				6220014E1BDCF6F300C20C68 /* Main.storyboard */,
+				622001511BDCF6F300C20C68 /* Assets.xcassets */,
+				622001531BDCF6F300C20C68 /* LaunchScreen.storyboard */,
+				622001561BDCF6F300C20C68 /* Info.plist */,
+				622001451BDCF6F300C20C68 /* Supporting Files */,
+				622001781BDCF88400C20C68 /* JYView.h */,
+				622001791BDCF88400C20C68 /* JYView.m */,
+			);
+			path = JYInvertedImage;
+			sourceTree = "<group>";
+		};
+		622001451BDCF6F300C20C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				622001461BDCF6F300C20C68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6220015E1BDCF6F300C20C68 /* JYInvertedImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6220015F1BDCF6F300C20C68 /* JYInvertedImageTests.m */,
+				622001611BDCF6F300C20C68 /* Info.plist */,
+			);
+			path = JYInvertedImageTests;
+			sourceTree = "<group>";
+		};
+		622001691BDCF6F300C20C68 /* JYInvertedImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6220016A1BDCF6F300C20C68 /* JYInvertedImageUITests.m */,
+				6220016C1BDCF6F300C20C68 /* Info.plist */,
+			);
+			path = JYInvertedImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622001411BDCF6F300C20C68 /* JYInvertedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6220016F1BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImage" */;
+			buildPhases = (
+				6220013E1BDCF6F300C20C68 /* Sources */,
+				6220013F1BDCF6F300C20C68 /* Frameworks */,
+				622001401BDCF6F300C20C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYInvertedImage;
+			productName = JYInvertedImage;
+			productReference = 622001421BDCF6F300C20C68 /* JYInvertedImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6220015A1BDCF6F300C20C68 /* JYInvertedImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622001721BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImageTests" */;
+			buildPhases = (
+				622001571BDCF6F300C20C68 /* Sources */,
+				622001581BDCF6F300C20C68 /* Frameworks */,
+				622001591BDCF6F300C20C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6220015D1BDCF6F300C20C68 /* PBXTargetDependency */,
+			);
+			name = JYInvertedImageTests;
+			productName = JYInvertedImageTests;
+			productReference = 6220015B1BDCF6F300C20C68 /* JYInvertedImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		622001651BDCF6F300C20C68 /* JYInvertedImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622001751BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImageUITests" */;
+			buildPhases = (
+				622001621BDCF6F300C20C68 /* Sources */,
+				622001631BDCF6F300C20C68 /* Frameworks */,
+				622001641BDCF6F300C20C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622001681BDCF6F300C20C68 /* PBXTargetDependency */,
+			);
+			name = JYInvertedImageUITests;
+			productName = JYInvertedImageUITests;
+			productReference = 622001661BDCF6F300C20C68 /* JYInvertedImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6220013A1BDCF6F300C20C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					622001411BDCF6F300C20C68 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6220015A1BDCF6F300C20C68 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 622001411BDCF6F300C20C68;
+					};
+					622001651BDCF6F300C20C68 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 622001411BDCF6F300C20C68;
+					};
+				};
+			};
+			buildConfigurationList = 6220013D1BDCF6F300C20C68 /* Build configuration list for PBXProject "JYInvertedImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622001391BDCF6F300C20C68;
+			productRefGroup = 622001431BDCF6F300C20C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622001411BDCF6F300C20C68 /* JYInvertedImage */,
+				6220015A1BDCF6F300C20C68 /* JYInvertedImageTests */,
+				622001651BDCF6F300C20C68 /* JYInvertedImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622001401BDCF6F300C20C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622001551BDCF6F300C20C68 /* LaunchScreen.storyboard in Resources */,
+				622001521BDCF6F300C20C68 /* Assets.xcassets in Resources */,
+				622001501BDCF6F300C20C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001591BDCF6F300C20C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001641BDCF6F300C20C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6220013E1BDCF6F300C20C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6220014D1BDCF6F300C20C68 /* ViewController.m in Sources */,
+				6220017A1BDCF88400C20C68 /* JYView.m in Sources */,
+				6220014A1BDCF6F300C20C68 /* AppDelegate.m in Sources */,
+				622001471BDCF6F300C20C68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001571BDCF6F300C20C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622001601BDCF6F300C20C68 /* JYInvertedImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622001621BDCF6F300C20C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6220016B1BDCF6F300C20C68 /* JYInvertedImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6220015D1BDCF6F300C20C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622001411BDCF6F300C20C68 /* JYInvertedImage */;
+			targetProxy = 6220015C1BDCF6F300C20C68 /* PBXContainerItemProxy */;
+		};
+		622001681BDCF6F300C20C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622001411BDCF6F300C20C68 /* JYInvertedImage */;
+			targetProxy = 622001671BDCF6F300C20C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6220014E1BDCF6F300C20C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6220014F1BDCF6F300C20C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		622001531BDCF6F300C20C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622001541BDCF6F300C20C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6220016D1BDCF6F300C20C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6220016E1BDCF6F300C20C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		622001701BDCF6F300C20C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYInvertedImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		622001711BDCF6F300C20C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYInvertedImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		622001731BDCF6F300C20C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYInvertedImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYInvertedImage.app/JYInvertedImage";
+			};
+			name = Debug;
+		};
+		622001741BDCF6F300C20C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYInvertedImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYInvertedImage.app/JYInvertedImage";
+			};
+			name = Release;
+		};
+		622001761BDCF6F300C20C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYInvertedImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYInvertedImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		622001771BDCF6F300C20C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYInvertedImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYInvertedImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYInvertedImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6220013D1BDCF6F300C20C68 /* Build configuration list for PBXProject "JYInvertedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6220016D1BDCF6F300C20C68 /* Debug */,
+				6220016E1BDCF6F300C20C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6220016F1BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622001701BDCF6F300C20C68 /* Debug */,
+				622001711BDCF6F300C20C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		622001721BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622001731BDCF6F300C20C68 /* Debug */,
+				622001741BDCF6F300C20C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		622001751BDCF6F300C20C68 /* Build configuration list for PBXNativeTarget "JYInvertedImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622001761BDCF6F300C20C68 /* Debug */,
+				622001771BDCF6F300C20C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6220013A1BDCF6F300C20C68 /* Project object */;
+}
